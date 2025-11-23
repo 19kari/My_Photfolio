@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Karina Sonawane — Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="description" content="Responsive portfolio landing page for Karina Sonawane, Full Stack Developer." />
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav">
+                <div class="brand">
+                    <div class="logo">KS</div>
+                    <div>
+                        <div style="font-weight:700">Karina Sonawane</div>
+                        <div style="font-size:12px;color:var(--muted)">Full Stack Developer • Java & Web Dev</div>
+                    </div>
+                </div>
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact" class="cta">Contact</a>
+                </div>
+                <button class="menu-btn" aria-label="menu">☰</button>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="intro">
+                    <h1>Hi, I’m <span style="color:var(--accent)">Karina Sonawane</span></h1>
+                    <p>Full Stack Developer focused on Java, Web Development, and AI-enabled projects. I build
+                        responsive web apps, REST APIs and ML-backed prototypes.</p>
+                    <div class="actions">
+                        <a class="cta" href="#projects">See Projects</a>
+                        <a class="" href="#contact"
+                            style="padding:8px 12px;border-radius:10px;background:transparent;border:1px solid rgba(255,255,255,0.04);text-decoration:none;color:var(--text);">Download
+                            CV (PDF)</a>
+                    </div>
+
+                    <div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap">
+                        <div class="card" style="display:flex;gap:12px;align-items:center">
+                            <div style="font-weight:700">2021 - 2025</div>
+                            <div style="font-size:13px;color:var(--muted)">B.E. Computer Science (in progress)</div>
+                        </div>
+                        <div class="card" style="display:flex;gap:12px;align-items:center">
+                            <div style="font-weight:700">Nov 2024</div>
+                            <div style="font-size:13px;color:var(--muted)">Java Internship — JDBC & MySQL</div>
+                        </div>
+                    </div>
+
+                    <div class="socials">
+                        <a class="pill" href="https://github.com/19kari" target="_blank">GitHub</a>
+                        <a class="pill" href="https://www.linkedin.com/in/karina-sonawane-7a8bb2317"
+                            target="_blank">LinkedIn</a>
+                        <span class="pill">Pune, Maharashtra</span>
+                    </div>
+                </div>
+
+                <aside>
+                    <div class="avatar card">
+                        <!-- Replace with your headshot: <img src="..." alt="Karina Sonawane" /> -->
+                        <img src="./img/./passport.jpeg" alt="">
+                    </div>
+                </aside>
+            </section>
+
+            <section id="about">
+                <h2>About</h2>
+                <div class="card">
+                    <p class="muted">I am an IT student passionate about delivering results. I enjoy learning new
+                        technologies and applying them to real-world problems. I have hands-on exposure to Core Java,
+                        OOP, JDBC with MySQL, web development, and AI projects using Python.</p>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="grid skills">
+                    <div class="skill">Java (Core & OOP)</div>
+                    <div class="skill">Web Development: HTML, CSS, JavaScript</div>
+                    <div class="skill">Databases: MySQL, PostgreSQL</div>
+                    <div class="skill">Python, NumPy, Pandas</div>
+                    <div class="skill">Frameworks: Flask</div>
+                    <div class="skill">Tools: Git, Visual Studio, Eclipse</div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2>Selected Projects</h2>
+                <div class="grid projects">
+
+                    <article class="project">
+                        <div class="thumb"
+                            style="background-image:url('https://images.unsplash.com/photo-1501973801540-537f08ccae7b?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=')">
+                        </div>
+                        <div class="p-body">
+                            <h3 style="margin:0">WeatherNow — Real-time Weather Forecast</h3>
+                            <p class="muted" style="margin:6px 0 0">A responsive weather forecast app that fetches and
+                                displays live weather using OpenWeatherMap API. Displays temperature, location, and
+                                condition with clean UI and responsive date formatting.</p>
+                            <div class="tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">OpenWeatherMap API</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <div class="thumb"
+                            style="background-image:url('https://images.unsplash.com/photo-1581093588401-ec3e3d6e1a3e?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=')">
+                        </div>
+                        <div class="p-body">
+                            <h3 style="margin:0">SKIN AI CARE — Intelligent Dermatology</h3>
+                            <p class="muted" style="margin:6px 0 0">AI-powered tool for early skin disease detection
+                                using CNNs on dermatological images. Includes image preprocessing, augmentation, model
+                                training, and a Flask-based UI for demo and JSON-server integration.</p>
+                            <div class="tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">CNN</span>
+                                <span class="tag">Flask</span>
+                                <span class="tag">NumPy, Pandas</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <section id="experience">
+                <h2>Experience</h2>
+                <div class="timeline">
+                    <div class="item">
+                        <div style="display:flex;justify-content:space-between;align-items:center">
+                            <div style="font-weight:700">Java Intern — Friends Union For Energising Lives (FUEL)</div>
+                            <div class="muted">Nov 2024 — Dec 2024</div>
+                        </div>
+                        <div class="muted" style="margin-top:8px">Worked on Core Java and JDBC integration with MySQL,
+                            building small real-world applications and learning database connectivity.</div>
+                    </div>
+
+                    <div class="item">
+                        <div style="display:flex;justify-content:space-between;align-items:center">
+                            <div style="font-weight:700">Web Development Intern — Prodigy Infotech, Jalgaon</div>
+                            <div class="muted">Sep 2022 — Oct 2022</div>
+                        </div>
+                        <div class="muted" style="margin-top:8px">Built dashboards, landing pages and improved
+                            application performance during internship.</div>
+                    </div>
+                </div>
+
+                <h2 style="margin-top:18px">Education</h2>
+                <div class="timeline">
+                    <div class="item">
+                        <div style="display:flex;justify-content:space-between;align-items:center">
+                            <div style="font-weight:700">B.E. — Computer Science</div>
+                            <div class="muted">KCES’s College of Engineering and Management, Jalgaon — 2021–2025</div>
+                        </div>
+                        <div class="muted" style="margin-top:8px">Coursework: Java, Web Development, Databases, AI/ML
+                            basics.</div>
+                    </div>
+
+                    <div class="item">
+                        <div style="display:flex;justify-content:space-between;align-items:center">
+                            <div style="font-weight:700">HSC — MM College, Pachora</div>
+                            <div class="muted">Class 12th — 84.33%</div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div style="display:flex;justify-content:space-between;align-items:center">
+                            <div style="font-weight:700">SSC — SSG High School, Pachora</div>
+                            <div class="muted">2018 — 2019 — 73.40%</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <div class="contact-grid">
+                    <div>
+                        <p class="muted">Want to collaborate or hire me? Fill the form and I’ll get back to you.</p>
+                        <p style="margin:10px 0"><strong>Email</strong><br />karinasonawane61@gmail.com</p>
+                        <p style="margin:10px 0"><strong>Location</strong><br />Pune, Maharashtra</p>
+                        <p style="margin:10px 0"><strong>Phone</strong><br />+91 8421906982</p>
+                    </div>
+                    <div>
+                        <form
+                            onsubmit="event.preventDefault(); alert('Thanks! This demo form does not submit — wire to an email or API.');">
+                            <input placeholder="Your name" required />
+                            <input type="email" placeholder="Your email" required />
+                            <textarea placeholder="Message" rows="5" required></textarea>
+                            <button type="submit">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="muted">© <span id="year"></span> Karina Sonawane — Built with ❤️ • Responsive & accessible</div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
